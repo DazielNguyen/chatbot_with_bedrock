@@ -5,7 +5,7 @@ from botocore.exceptions import NoCredentialsError, ClientError
 from botocore.config import Config
 
 # Cấu hình AWS Bedrock
-KB_ID = "KQCHKPPDTV"
+KB_ID = "KQCHKPPDTV" # Thay đổi thành Knowledge Base ID của bạn
 MODEL_ARN = "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0"
 REGION = "us-east-1"
 
